@@ -4,18 +4,18 @@
 
 int main()
 {
-    FILE *file = fopen("in", "r");
-    assert(file);
+    //FILE *file = fopen("in", "r");
+    //assert(file);
     int c;
     
     fprintf(stderr, "\nASCII ART -----------------------------------------\n");
-    while((c = fgetc(file)) != EOF)
+   /* while((c = fgetc(file)) != EOF)
     {
     	fprintf(stderr,"%c", c);
     }
     
     fprintf(stderr,"\n");
     fclose(file);
-
+*/
     return 0;
 }
