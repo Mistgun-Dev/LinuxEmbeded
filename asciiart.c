@@ -6,7 +6,7 @@ int main()
 {
     //FILE *file = fopen("in", "r");
     //assert(file);
-    int c;
+    //int c;
     
      fprintf(stderr, "\n\n ASCII ART MODULE-----------------------------------------\n\n");
     /*
@@ -36,20 +36,20 @@ int main()
     fprintf(stderr,"     |   \\   '.     `'.'. /`\\/ .-'          '.   / |\n");
     fprintf(stderr,"     |   |     `'.     `;-:-;`)|             |-./  |\n");
     fprintf(stderr,"     |   /_       `'--./_  ` )/'-------------')/)  |\n");
-    fprintf(stderr,"     \\   | `""""----"`\\//`""`/,===..'`````````/ (  |\n");
-    fprintf(stderr,"      |  |            / `---` `==='          /   ) |\n");
+    fprintf(stderr,"     \\   | '\"\"\"\"----\"'\\//`\"\"`/,===..``````````/ (  |\n");
+    fprintf(stderr,"      |  |            / `---` `===`          /   ) |\n");
     fprintf(stderr,"      /  \\           /                      /   (  |\n");
-    fprintf(stderr,"     |    '------.  |'--------------------'|     ) |\n");
+    fprintf(stderr,"     |    `------.  |`--------------------`|     ) |\n");
     fprintf(stderr,"      \\           `-|                      |    /  |\n");
     fprintf(stderr,"       `--...,______|                      |   (   |\n");
     fprintf(stderr,"              | |   |                      |    ) ,|\n");
     fprintf(stderr,"              | |   |                      |   ( /||\n");
-    fprintf(stderr,"              | |   |                      |   )/ `"\n");
+    fprintf(stderr,"              | |   |                      |   )/ `'\n");
     fprintf(stderr,"             /   \\  |                      |  (/\n");
     fprintf(stderr,"           .' /I\\ '.|                      |  /)\n");
     fprintf(stderr,"        .-'_.'/ \\'. |                      | /\n");
-    fprintf(stderr,"        ```  `"""` `| .-------------------.||\n");
-    fprintf(stderr,"                    `"`                   `"`\n");
+    fprintf(stderr,"        ```  `\"\"\"` `| .-------------------.||\n");
+    fprintf(stderr,"                    `\"`                   `\"`\n\n\n");
 
 
     return 0;
