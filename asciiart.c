@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <assert.h>
+//#include <assert.h>
 
 int main()
 {
@@ -8,7 +8,7 @@ int main()
     //assert(file);
     int c;
     
-    fprintf(stderr, "\nASCII ART -----------------------------------------\n");
+    fprintf(stderr, "\nASCII ART MODULE -----------------------------------------\n");
    /* while((c = fgetc(file)) != EOF)
     {
     	fprintf(stderr,"%c", c);
