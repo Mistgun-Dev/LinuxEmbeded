@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <assert.h>
+//#include <assert.h>
 
 int main()
 {
-    FILE *file = fopen("in", "r");
-    assert(file);
+    //FILE *file = fopen("in", "r");
+    //assert(file);
     int c;
     
-    fprintf(stderr, "\nASCII ART -----------------------------------------\n");
+     fprintf(stderr, "\n\n ASCII ART MODULE-----------------------------------------\n\n");
+    /*
     while((c = fgetc(file)) != EOF)
     {
     	fprintf(stderr,"%c", c);
@@ -16,6 +17,6 @@ int main()
     
     fprintf(stderr,"\n");
     fclose(file);
-
+    */
     return 0;
 }
